@@ -1,0 +1,826 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="国家大剧院,媒资库">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NCPA - Media Asset Management</title>
+    
+    <!-- build:css css/main.min.css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/custom.css" type="text/css">
+    <link rel="stylesheet" href="css/theme-color.css" type="text/css">
+    <link rel="stylesheet" href="css/mega-menu.css" type="text/css">
+    <link rel="stylesheet" href="css/responsive.css" type="text/css">
+    <!-- endbuild -->
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- 菜单栏 -->
+        <header class="cp_header">
+            <div class="cp-navigation-row">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-9 col-sm-8 col-xs-12">
+                            <div class="cp-logo">
+                                <a href="./index.html"><img src="images/common/logowhite.png" alt=""></a>
+                            </div>
+                            <div class="cp-nav-holder">
+                                <div class="cp-megamenu">
+                                    <div class="cp-mega-menu">
+                                        <ul class="main-menu">
+                                            <li><a href="./index.html">首页</a></li>
+                                            <li><a href="#">视频</a></li>
+                                            <li><a href="#">图片</a></li>
+                                            <li><a href="#">音频</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="cp-right-holder">
+                                <ul class="cp-social-links">
+                                    <li class="cp-search-holder"><i class="fa fa-search"></i>
+                                        <form action="form.php" method="get" class="cp-search-form-outer">
+                                            <input type="text" placeholder="搜索资料..." required>
+                                            <button class="btn-submit" type="submit"><i class="fa fa-search"></i></button>
+                                        </form>
+                                    </li>
+                                    <li style="margin-left: 10px;"><i class="fa fa-user"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <!-- 首页 banner -->
+        <div class="cp_banner_full_width">
+            <!-- 首页 banner slide -->
+            <div class="cp-slider-block">
+                <div class="cp_banner">
+                    <div class="owl-carousel" id="cp-video-slider">
+                        <div class="item">
+                            <img src="images/banner/01.jpg" alt="">
+                            <div class="cp-banner-caption">
+                                <div class="inner-holder">
+                                    <div class="banner-top-text">
+                                        <strong class="banner-title">王羽佳</strong>
+                                        <p>从羽佳的眼中发现 <br> Through the eyes of Yujia Wang</p>
+                                    </div>
+                                    <a href="#" class="cp-btn-style1">Watch Video</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/banner/02.jpg" alt="">
+                            <div class="cp-banner-caption">
+                                <div class="inner-holder">
+                                    <div class="banner-top-text">
+                                        <strong class="banner-title">图兰朵</strong>
+                                        <p>歌剧图兰朵纪实 <br> The documentary of the opera Turando </p>
+                                    </div>
+                                    <a href="#" class="cp-btn-style1">Watch Video</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/banner/03.jpg" alt="">
+                            <div class="cp-banner-caption">
+                                <div class="inner-holder">
+                                    <div class="banner-top-text">
+                                        <strong class="banner-title">冰山万里情</strong>
+                                        <p>歌剧《冰山上的来客》2015巡演纪实 <br> 2015 show tour of On Iceberg Guest </p>
+                                    </div>
+                                    <a href="#" class="cp-btn-style1">Watch Video</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/banner/04.jpg" alt="">
+                            <div class="cp-banner-caption">
+                                <div class="inner-holder">
+                                    <div class="banner-top-text">
+                                        <strong class="banner-title">幕后探访</strong>
+                                        <p>歌剧《冰山上的来客》2015巡演纪实 <br> 2015 show tour of On Iceberg Guest </p>
+                                    </div>
+                                    <a href="#" class="cp-btn-style1">Watch Video</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 首页 banner 四方图 -->
+            <div class="cp-video-grid-block">
+                <ul class="cp-video-grid-listing">
+                    <li class="cp-vgl-holder m2 p2">
+                        <div class="cp-thumb">
+                            <img src="images/grid/01.jpg" alt="">
+                            <div class="cp-caption">
+                                <a class="play-video" href="#">Play</a>
+                                <h4>国家大剧院八周年</h4>
+                                <strong>by 剧目制作部</strong>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cp-vgl-holder m2 p2">
+                        <div class="cp-thumb">
+                            <img src="images/grid/02.jpg" alt="">
+                            <div class="cp-caption">
+                                <a class="play-video" href="#">Play</a>
+                                <h4>歌剧《纳布科》创作纪实</h4>
+                                <strong>by 剧目制作部</strong>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cp-vgl-holder p2">
+                        <div class="cp-thumb">
+                            <img src="images/grid/03.jpg" alt="">
+                            <div class="cp-caption">
+                                <a class="play-video" href="#">Play</a>
+                                <h4>国家交响乐之春</h4>
+                                <strong>by 剧目制作部</strong>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cp-vgl-holder p2">
+                        <div class="cp-thumb">
+                            <img src="images/grid/04.jpg" alt="">
+                            <div class="cp-caption">
+                                <a class="play-video" href="#">Play</a>
+                                <h4>国家大剧院六周年</h4>
+                                <strong>by 剧目制作部</strong>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="cp-main-content">
+            <!-- 新入库类 -->
+            <section class="cp-section pd-tb60">
+                <div class="container">
+                    
+                    <!-- 新入图片 -->
+                    <div class="cp-outer-holder cp-featured-video">
+                        <div class="row">
+                            <div class="col-md-12 cp-heading-outer">
+                                <h2>新入库图片</h2>
+                                <ul class="cp-listed">
+                                    <li class="view-all"><a href="#">View All:&nbsp;</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="featured-video">
+                            
+                            <div class="item">
+                                <div class="cp-video-item">
+                                    <figure class="cp-thumb">
+                                        <img src="images/newpic/01.jpg" alt="">
+                                    </figure>
+                                    <div class="cp-text">
+                                        <h4>
+                                            <a href="#">歌剧《XXX》</a>
+                                        </h4>
+                                        <ul class="cp-meta-list">
+                                            <li>Monday, Jan 26, 2016</li>
+                                            <li>by NCPA, <span>160 Views</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="cp-video-item">
+                                    <figure class="cp-thumb">
+                                        <img src="images/newpic/02.jpg" alt="">
+                                    </figure>
+                                    <div class="cp-text">
+                                        <h4>
+                                            <a href="#">杨丽萍《孔雀》</a>
+                                        </h4>
+                                        <ul class="cp-meta-list">
+                                            <li>Monday, Jan 26, 2016</li>
+                                            <li>by NCPA, <span>160 Views</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="cp-video-item">
+                                    <figure class="cp-thumb">
+                                        <img src="images/newpic/03.jpg" alt="">
+                                    </figure>
+                                    <div class="cp-text">
+                                        <h4>
+                                            <a href="#">芭蕾舞《法老的女儿》</a>
+                                        </h4>
+                                        <ul class="cp-meta-list">
+                                            <li>Monday, Jan 26, 2016</li>
+                                            <li>by NCPA, <span>160 Views</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="cp-video-item">
+                                    <figure class="cp-thumb">
+                                        <img src="images/newpic/04.jpg" alt="">
+                                    </figure>
+                                    <div class="cp-text">
+                                        <h4>
+                                            <a href="#">歌剧《图兰朵》</a>
+                                        </h4>
+                                        <ul class="cp-meta-list">
+                                            <li>Monday, Jan 26, 2016</li>
+                                            <li>by NCPA, <span>160 Views</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="cp-video-item">
+                                    <figure class="cp-thumb">
+                                        <img src="images/newpic/05.jpg" alt="">
+                                    </figure>
+                                    <div class="cp-text">
+                                        <h4>
+                                            <a href="#">卡雷拉斯独唱音乐会</a>
+                                        </h4>
+                                        <ul class="cp-meta-list">
+                                            <li>Monday, Jan 26, 2016</li>
+                                            <li>by NCPA, <span>160 Views</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="cp-video-item">
+                                    <figure class="cp-thumb">
+                                        <img src="images/newpic/06.jpg" alt="">
+                                    </figure>
+                                    <div class="cp-text">
+                                        <h4>
+                                            <a href="#">双人舞《堂吉诃德》</a>
+                                        </h4>
+                                        <ul class="cp-meta-list">
+                                            <li>Monday, Jan 26, 2016</li>
+                                            <li>by NCPA, <span>160 Views</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="cp-video-item">
+                                    <figure class="cp-thumb">
+                                        <img src="images/newpic/07.jpg" alt="">
+                                    </figure>
+                                    <div class="cp-text">
+                                        <h4>
+                                            <a href="#">多明戈饰演《纳布科》</a>
+                                        </h4>
+                                        <ul class="cp-meta-list">
+                                            <li>Monday, Jan 26, 2016</li>
+                                            <li>by NCPA, <span>160 Views</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <!-- 新入库其他 -->
+                    <div class="cp-outer-holder pd-t60">
+                        <div class="row">
+                            <div class="col-md-9">
+                                
+                                <!-- 新入库视频 -->
+                                <div class="cp-most-view-outer pd-b60">
+                                    
+                                    <div class="cp-heading-outer">
+                                        <h2>新入库视频</h2>
+                                        <ul class="cp-listed">
+                                            <li class="view-all"><a href="#">View All:&nbsp;</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="cp_viewed-slider">
+                                        <div class="item">
+                                            <div class="cp-most-listed">
+                                                <figure class="cp-thumb">
+                                                    <img src="images/newvideo/01.jpg" alt="">
+                                                    <figcaption class="cp-caption">
+                                                        <a href="#" class="play-video">Play</a>
+                                                    </figcaption>
+                                                </figure>
+                                                
+                                                <div class="cp-text">
+                                                    <h3 style="font-size: 22px;">原创歌剧《骆驼祥子》在意大利转播</h3>
+                                                    <ul class="cp-meta-list">
+                                                        <li>Monday, Oct 08, 2015</li>
+                                                        <li>by NCPA, <span>344 Views</span></li>
+                                                    </ul>
+                                                    <p>2015年9月23日至10月5日，国家大剧院原创歌剧《骆驼祥子》受邀赴意大利，在都灵、米兰、帕尔玛、热那亚、佛罗伦萨5个城市进行了为期13天的巡演。</p>
+                                                    <p style="margin-top: 5px;">在指挥家张国勇的执棒下，著名华人歌唱家孙秀苇、田浩江，中国实力歌唱家韩蓬、宋元明、孙砾，国家大剧院驻院歌唱家金郑健、周晓琳、关致京、王鹤翔、李欣桐等携手国家大家剧院合唱团、国家大剧院管弦乐团成功奉献了精彩的演出...<a class="read-more" href="#">{+}</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="cp-most-listed">
+                                                <figure class="cp-thumb">
+                                                    <img src="images/newvideo/01.jpg" alt="">
+                                                    <figcaption class="cp-caption">
+                                                        <a href="#" class="play-video">Play</a>
+                                                    </figcaption>
+                                                </figure>
+                                                
+                                                <div class="cp-text">
+                                                    <h3 style="font-size: 22px;">原创歌剧《骆驼祥子》在意大利转播</h3>
+                                                    <ul class="cp-meta-list">
+                                                        <li>Monday, Oct 08, 2015</li>
+                                                        <li>by NCPA, <span>344 Views</span></li>
+                                                    </ul>
+                                                    <p>2015年9月23日至10月5日，国家大剧院原创歌剧《骆驼祥子》受邀赴意大利，在都灵、米兰、帕尔玛、热那亚、佛罗伦萨5个城市进行了为期13天的巡演。</p>
+                                                    <p>在指挥家张国勇的执棒下，著名华人歌唱家孙秀苇、田浩江，中国实力歌唱家韩蓬、宋元明、孙砾，国家大剧院驻院歌唱家金郑健、周晓琳、关致京、王鹤翔、李欣桐等携手国家大家剧院合唱团、国家大剧院管弦乐团成功奉献了精彩的演出...<a class="read-more" href="#">{+}</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- 新入库音频 -->
+                                <div class="cp-categories-outer pd-b60">
+                                    <div class="cp-heading-outer">
+                                        <h2>新入库音频</h2>
+                                        <ul class="cp-listed">
+                                            <li class="view-all"><a href="#">View All</a></li>
+                                        </ul>
+                                    </div>
+                                    <ul class="cp-categories-listed">
+                                        <li>
+                                            <figure class="cp-thumb">
+                                                <img src="images/newaudio/01.jpg" alt="">
+                                                <figcaption class="cp-caption">
+                                                    <a href="#" class="play-video">Play</a>
+                                                    <div class="cp-text">
+                                                        <h4>大提琴与钢琴作品曲选</h4>
+                                                        <ul class="cp-meta-list">
+                                                            <li>Monday, Feb 26, 2016</li>
+                                                            <li>by 缪勒.朔特 <span>344 Views</span></li>
+                                                        </ul>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>
+                                        </li>
+                                        <li>
+                                            <figure class="cp-thumb">
+                                                <img src="images/newaudio/02.jpg" alt="">
+                                                <figcaption class="cp-caption">
+                                                    <a href="#" class="play-video">Play</a>
+                                                    <div class="cp-text">
+                                                        <h4>小约翰施特劳斯《蝙蝠》</h4>
+                                                        <ul class="cp-meta-list">
+                                                            <li>Monday, Feb 26, 2016</li>
+                                                            <li>by 维也纳爱乐乐团 <span>344 Views</span></li>
+                                                        </ul>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>
+                                        </li>
+                                    </ul>
+
+                                    <div class="cp-comedy-video">
+                                        <div class="cp-heading-outer">
+                                            <h2>分类视频</h2>
+                                            <ul class="cp-listed">
+                                                <li class="view-all"><a href="#">View All:&nbsp;</a></li>
+                                            </ul>
+                                        </div>
+                                        <div id="comedy-videos">
+                                            <div class="item">
+                                                <div class="cp-video-item">
+                                                    <figure class="cp-thumb">
+                                                        <img src="images/videolist/01.jpg" alt="">
+                                                        <figcaption class="cp-caption">
+                                                            <a href="#" class="play-video">Play</a>
+                                                        </figcaption>
+                                                    </figure>
+                                                    <div class="cp-text">
+                                                        <h4><a href="#">演出</a></h4>
+                                                        <ul class="cp-meta-list">
+                                                            <li>歌剧院演出视频</li>
+                                                            <li>by NCPA, <span>344 Views</span></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="item">
+                                                <div class="cp-video-item">
+                                                    <figure class="cp-thumb">
+                                                        <img src="images/videolist/02.jpg" alt="">
+                                                        <figcaption class="cp-caption">
+                                                            <a href="#" class="play-video">Play</a>
+                                                        </figcaption>
+                                                    </figure>
+                                                    <div class="cp-text">
+                                                        <h4><a href="#">活动</a></h4>
+                                                        <ul class="cp-meta-list">
+                                                            <li>吉普赛小提琴之王 - 拉卡托斯</li>
+                                                            <li>by NCPA, <span>344 Views</span></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="item">
+                                                <div class="cp-video-item">
+                                                    <figure class="cp-thumb">
+                                                        <img src="images/videolist/03.jpg" alt="">
+                                                        <figcaption class="cp-caption">
+                                                            <a href="#" class="play-video">Play</a>
+                                                        </figcaption>
+                                                    </figure>
+                                                    <div class="cp-text">
+                                                        <h4><a href="#">宣传片</a></h4>
+                                                        <ul class="cp-meta-list">
+                                                            <li>睡美人</li>
+                                                            <li>by NCPA, <span>344 Views</span></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="item">
+                                                <div class="cp-video-item">
+                                                    <figure class="cp-thumb">
+                                                        <img src="images/videolist/04.jpg" alt="">
+                                                        <figcaption class="cp-caption">
+                                                            <a href="#" class="play-video">Play</a>
+                                                        </figcaption>
+                                                    </figure>
+                                                    <div class="cp-text">
+                                                        <h4><a href="#">电影</a></h4>
+                                                        <ul class="cp-meta-list">
+                                                            <li>国家大剧院电影《卡门》</li>
+                                                            <li>by NCPA, <span>344 Views</span></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="item">
+                                                <div class="cp-video-item">
+                                                    <figure class="cp-thumb">
+                                                        <img src="images/videolist/05.jpg" alt="">
+                                                        <figcaption class="cp-caption">
+                                                            <a href="#" class="play-video">Play</a>
+                                                        </figcaption>
+                                                    </figure>
+                                                    <div class="cp-text">
+                                                        <h4><a href="#">记录、专题</a></h4>
+                                                        <ul class="cp-meta-list">
+                                                            <li>专题《艺术家的生涯》</li>
+                                                            <li>by NCPA, <span>344 Views</span></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                            <div class="col-md-3">
+                                <aside class="cp_sidebar-outer">
+                                    <!-- 库内数据量 -->
+                                    <div class="widget widget-share">
+                                        <div class="cp-heading-outer">
+                                            <h2>库内数据量</h2>
+                                        </div>
+                                        <ul class="cp-share-social">
+                                            <li class="fb-box">
+                                                <a href="#"><i class="fa fa-film"></i><span>355</span></a>
+                                            </li>
+                                            <li class="tw-box">
+                                                <a href="#"><i class="fa fa-photo"></i><span>1,022</span></a>
+                                            </li>
+                                            <li class="google-box">
+                                                <a href="#"><i class="fa fa-music"></i><span>2,735</span></a>
+                                            </li>
+                                            <li class="inst-box">
+                                                <a href="#"><i class="fa fa-file-text-o"></i><span>8,387</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <!-- 浏览排行榜 -->
+                                    <div class="widget widget-recent-post">
+                                        <div class="cp-heading-outer">
+                                            <h2>浏览排行榜</h2>
+                                        </div>
+                                        <ul style="margin-top: 25px;">
+                                            <li>
+                                                <div class="cp-holder">
+                                                    <div class="cp-thumb2">
+                                                        <a href="#"><img src="images/billboard/01.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="cp-text">
+                                                        <h5><a href="#">歌剧院《游吟诗人》</a></h5>
+                                                        <ul class="cp-meta-list">
+                                                            <li>Monday, Feb 26, 2016</li>
+                                                            <li>Views: 134</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                            <li>
+                                                <div class="cp-holder">
+                                                    <div class="cp-thumb2">
+                                                        <a href="#"><img src="images/billboard/02.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="cp-text">
+                                                        <h5><a href="#">歌剧电影《骆驼祥子》</a></h5>
+                                                        <ul class="cp-meta-list">
+                                                            <li>Monday, Feb 26, 2016</li>
+                                                            <li>Views: 134</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                            <li>
+                                                <div class="cp-holder">
+                                                    <div class="cp-thumb2">
+                                                        <a href="#"><img src="images/billboard/03.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="cp-text">
+                                                        <h5><a href="#">歌剧《霍夫曼的故事》</a></h5>
+                                                        <ul class="cp-meta-list">
+                                                            <li>Monday, Feb 26, 2016</li>
+                                                            <li>Views: 134</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                            <li>
+                                                <div class="cp-holder">
+                                                    <div class="cp-thumb2">
+                                                        <a href="#"><img src="images/billboard/04.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="cp-text">
+                                                        <h5><a href="#">歌剧电影《诺尔玛》</a></h5>
+                                                        <ul class="cp-meta-list">
+                                                            <li>Monday, Feb 26, 2016</li>
+                                                            <li>Views: 134</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="#" class="cp-more-btn">更多热门 >></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="widget widget-magazine" style="margin-top:30px;">
+                                        <div class="cp-heading-outer">
+                                            <h2>国家大剧院院刊</h2>
+                                        </div>
+                                        <div class="cp-thumb">
+                                            <img src="images/magazine/01.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- 所有图片类 -->
+            <div class="cp-content">
+                <div class="container">
+                    <div class="row">
+                        <!-- 所有图片 -->
+                        <div class="col-md-9">
+
+                            <div class="cp-featured-block m60">
+                                <div class="row">
+                                    <div class="col-md-12 cp-heading-outer">
+                                        <h2>所有图片</h2>
+                                    </div>
+                                    <div class="featured-blocks">
+                                        <div class="col-md-4">
+                                            <figure class="cp-thumb">
+                                                <img alt="" src="images/allimg/01.jpg">
+                                                <figcaption class="cp-caption">
+                                                    <div class="cp-text">
+                                                        <h4>照片库</h4>
+                                                        <ul class="cp-meta-list">
+                                                            <li>Total: 23256</li>
+                                                            <li>by NCPA <span>19 Views</span></li>
+                                                        </ul>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        
+                                        <div class="col-md-4">
+                                            <figure class="cp-thumb">
+                                                <img alt="" src="images/allimg/02.jpg">
+                                                <figcaption class="cp-caption">
+                                                    <div class="cp-text">
+                                                        <h4>设计搞</h4>
+                                                        <ul class="cp-meta-list">
+                                                            <li>Total: 23256</li>
+                                                            <li>by NCPA <span>19 Views</span></li>
+                                                        </ul>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        
+                                        <div class="col-md-4">
+                                            <figure class="cp-thumb">
+                                                <img alt="" src="images/allimg/03.jpg">
+                                                <figcaption class="cp-caption">
+                                                    <div class="cp-text">
+                                                        <h4>乐谱库</h4>
+                                                        <ul class="cp-meta-list">
+                                                            <li>Total: 23256</li>
+                                                            <li>by NCPA <span>19 Views</span></li>
+                                                        </ul>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 唱片 -->
+                        <div class="col-md-3">
+                            <div class="cp-sidebar">
+                                <div class="widget widget-review">
+                                    <div class="cp-heading-outer">
+                                        <h2>唱片</h2>
+                                    </div>
+                                    
+                                    <!-- 唱片 -->
+                                    <div class="widget widget-recent-post">
+                                        <ul class="opera-record">
+                                            <li>
+                                                <div class="cp-holder">
+                                                    <div class="cp-thumb2">
+                                                        <a href="#"><img src="images/record/01.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="cp-text">
+                                                        <h5><a href="#">D小调第九号交响曲</a></h5>
+                                                        <ul class="cp-meta-list">
+                                                            <li>Author: 贝多芬</li>
+                                                            <li>Views: 134</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                            <li>
+                                                <div class="cp-holder">
+                                                    <div class="cp-thumb2">
+                                                        <a href="#"><img src="images/record/02.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="cp-text">
+                                                        <h5><a href="#">匈牙利舞曲（塔利赫指挥）</a></h5>
+                                                        <ul class="cp-meta-list">
+                                                            <li>Author: 勃拉姆斯</li>
+                                                            <li>Views: 134</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                            <li>
+                                                <div class="cp-holder">
+                                                    <div class="cp-thumb2">
+                                                        <a href="#"><img src="images/record/03.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="cp-text">
+                                                        <h5><a href="#">B小调第六号交响曲《悲怆》</a></h5>
+                                                        <ul class="cp-meta-list">
+                                                            <li>Author: 柴科夫斯基</li>
+                                                            <li>Views: 134</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                            <li>
+                                                <div class="cp-holder">
+                                                    <div class="cp-thumb2">
+                                                        <a href="#"><img src="images/record/04.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="cp-text">
+                                                        <h5><a href="#">交响曲《世界和谐》</a></h5>
+                                                        <ul class="cp-meta-list">
+                                                            <li>Author: 亨德米特</li>
+                                                            <li>Views: 134</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="cp_footer">
+            <!-- 年报 -->
+            <div class="container">
+                <section class="cp-instagram-section">
+                    <div class="cp-ins-text">
+                        <h4>年报</h4>
+                    </div>
+                    <ul class="cp-instagram-listed">
+                        <li>
+                            <figure class="cp-ins-item">
+                                <a href="#"><img src="images/report/01.jpg" alt=""></a>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="cp-ins-item">
+                                <a href="#"><img src="images/report/02.jpg" alt=""></a>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="cp-ins-item">
+                                <a href="#"><img src="images/report/03.jpg" alt=""></a>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="cp-ins-item">
+                                <a href="#"><img src="images/report/04.jpg" alt=""></a>
+                            </figure>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            
+            <!-- footer -->
+            <section class="cp-ft-third-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-5 col-xs-12">
+                            <strong class="cp-ft-logo">
+                                <a href="./index.html"><img src="images/common/logo.png" alt=""></a>
+                            </strong>
+                        </div>
+
+                        <div class="col-md-7 col-sm-7 col-xs-12">
+                            <h4 class="footer-text">&copy;2016 国家大剧院</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+    
+    <!--build:js js/main.min.js -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>
