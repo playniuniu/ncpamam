@@ -4266,7 +4266,8 @@ ul.cp-meta-post-list:last-child {
 .cp-video-grid-listing .cp-caption strong {
 	font-size: 14px;
 	font-weight: 700;
-	color: #99a3b1;
+/*	color: #99a3b1;*/
+    color: #d9d9d9;
 }
 
 .cp_header.cp_sticky,a,img,a:before,a:after,ul,ul li,li:before,.cp-caption,a.cp-btn-style1:before,a.cp-btn-style1:after,.play-video,.cp-search-form-outer,.sale-item,.cp-social-links li .fa,.cp-sidebar .cp-reviews li:before {
